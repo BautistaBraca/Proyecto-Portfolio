@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto Portfolio</title>
+  <link rel="icon" href="imagenes/icono.png">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+  <header>
+    <h2>Bautista Bracamonte Gonzalez</h2>
+    <nav>
+      <a href="#about" class="links-nav">Sobre mí</a>
+      <a href="#portfolio" class="links-nav">Portfolio</a>
+      <a href="#contact" class="links-nav">Contacto</a>
+    </nav>
+  </header>
+
+  <div id="about">
+    <h2>Sobre mí</h2>
+    <img src="imagenes/mi_foto.png" alt="Icono" id="img-icon">
+    <br>
+    <p>
+      ¡Hola! Mi nombre es Bautista y me complace darte la bienvenida a mi sitio web de portfolio. Permíteme contarte un
+      poco sobre mí.
+      <br>
+      Tengo 16 años y estoy apasionado por la programación. Actualmente, estoy estudiando programación en el curso de
+      'Generación T', donde estoy aprendiendo sobre el desarrollo web frontend. Me gusta sumergirme en el mundo del
+      código y descubrir nuevas formas de crear sitios web atractivos y funcionales.
+      <br>
+      Además de mi formación en 'Generación T', también me dedico a realizar pequeños cursos aparte para ampliar mis
+      conocimientos y aprender nuevas técnicas en el desarrollo web. Creo firmemente en la importancia de la educación
+      continua y me esfuerzo por mantenerme actualizado con las últimas tendencias y tecnologías del campo.
+      <br>
+      Mi objetivo principal es convertirme en un programador profesional y ser capaz de crear experiencias web únicas
+      para los usuarios. Me apasiona la combinación de diseño y programación para lograr buenos resultados.
+      <br>
+      A través de este sitio web, quiero compartir mis conocimientos, proyectos y experiencias en el mundo del
+      desarrollo web. Aquí encontrarás ejemplos de mi trabajo. Si tienes alguna pregunta, duda o consejo, no dudes en
+      contactarme en la sección de contacto o a través de alguna de mis redes sociales.
+
+
+    </p>
+  </div>
+
+  <div id="portfolio">
+    <h1>Portfolio</h1>
+    <p>A continuación, en esta sección presentaré algunos de mis trabajos sobre desarrollo web con una breve descripción
+      de ellos. Cada ícono es una imagen representativa de mis trabajos y al clickearlos te redireccionarán a los mismos
+      ya mencionados.</p>
+    <h2>"Primer sitio web HTML"</h2>
+    <a href="https://html-basico-telescopio-hubble.bautistabraca.repl.co/" target="_blank">
+      <img src="imagenes/icono-telescopio.png" alt="icono-trabajo" class="trabajos">
+    </a>
+    <p>
+      Este fue mi primer sitio web de HTML, en el cuál hice una página básica hablando sobre el famoso telescopio Hubble
+      y sus descubrimientos más importantes.
+    </p>
+    <br>
+    <br>
+    <br>
+    <h2>"Crea tu propia aventura: Misión Rescate"</h2>
+    <a href="https://mision-rescate-crea-tu-propia-aventura.bautistabraca.repl.co/" target="_blank">
+      <img src="imagenes/icono-ovni.png" alt="icono-trabajo-2" class="trabajos">
+    </a>
+    <p>
+      Este fue mi segundo trabajo de HTML y CSS, el cuál consiste en un simple juego de "Crear tu propia aventura" En
+      este juego deberás tomar decisiones a medida que la historia va avanzando para tratar de conseguir el final bueno.
+    </p>
+    <br>
+    <br>
+    <br>
+    <h2>"Formulario de registro"</h2>
+    <a href="https://formulario-de-registro.bautistabraca.repl.co/" target="_blank">
+      <img src="imagenes/icono-registro.png" alt="icono-trabajo-3" class="trabajos">
+    </a>
+    <p>
+      Este formulario de registro fue mi más reciente trabajo de HTML/CSS, consiste en un simple formulario en el cuál
+      debes ingresar tus datos para registrarte a una red social ficticia, luego los datos serán enviados a mi backend y
+      se almacenarán de forma automática.
+    </p>
+  </div>
+
+  <div id="contact" class="contenedor">
+    <h1>Contáctame</h1>
+    <form action="https://formspree.io/f/mzbqlqwl" method="post">
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="name" id="nombre" placeholder="Ingrese su nombre" class="alinear" required>
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" placeholder="Ingrese su email" class="alinear" required>
+      <label for="comentario">Mensaje:</label>
+      <input type="text" name="comment" id="comentario" placeholder="Comente su mensaje:" class="alinear" required>
+      <br>
+      <input type="submit" class="alinear">
+    </form>
+  </div>
+
+  <footer>
+    <div class="footer-contenido">
+      <h3>Redes:</h3>
+      <a href="https://www.instagram.com/bautistabraca/" target="_blank">
+        <img class="logo_footer" src="imagenes/logo_instagram.png"></a>
+      <a href="https://replit.com/@bautistabraca" target="_blank"><img class="logo_footer"
+          src="imagenes/logo_replit.png"></a>
+      <a href="https://github.com/BautistaBraca" target="_blank"><img src="imagenes/logo_github.png"
+          class="logo_footer"></a>
+      <a href="https://wa.link/np9h7b" target="_blank"><img src="imagenes/logo_whatsapp.png" class="logo_footer"></a>
+      <p>Copyright 2023 &copy</p>
+    </div>
+  </footer>
+</body>
+
+</html>
